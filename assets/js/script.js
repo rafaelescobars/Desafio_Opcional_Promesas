@@ -1,8 +1,3 @@
-// 1 - Función Asíncrona para obtener URL
-
-
-// 2 - mediante el bloque de try/catch conectarse a la URL indicada anteriormente con el método fetch, utilizando a la vez await para que retorne directamente el valor de la promesa.
-
 const getDatos = async () => {
   const url = 'https://jsonplaceholder.typicode.com/photos'
   try {
